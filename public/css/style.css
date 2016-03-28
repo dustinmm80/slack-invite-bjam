@@ -8,7 +8,7 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Lato', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: #000 url(//i.imgur.com/vi97lF6.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -25,6 +25,7 @@ margin: 0 auto;
 max-width: 100%;
 width: 940px;
 float: left;
+text-align: center;
 }
 
 .header, .content, .bottom, .sep2{
@@ -32,11 +33,23 @@ width: 100%;
 float: left;
 }
 
-
+#jenkins_logo {
+  width: 300px;
+}
 
 .header{
-	margin-top: 160px;
-	margin-bottom: 40px;
+	margin-top: 30px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+}
+
+.content {
+  background: rgba(0,0,0,0.6);
+  border-radius: 0px 0px 30px 30px;
+  -moz-border-radius: 0px 0px 30px 30px;
+  -webkit-border-radius: 0px 0px 30px 30px;
 }
 
 
@@ -122,10 +135,14 @@ margin-bottom: 15px;
 	}
 }
 
+#slack-email {
+  border: 1px solid #fff;
+}
+
 .submit{
-padding: 3px 10px;
+padding: 6px 10px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
-margin-left: -78px;
+margin-left: -58px;
 margin-top: 12px;
 background: #ffffff;
 border: none;
